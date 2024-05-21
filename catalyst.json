@@ -1,0 +1,8 @@
+{
+  "appsail": [
+    {
+      "source": "/home/maheshlinux/Catalyst/Lumel/appsail-python",
+      "name": "LumelAppSail"
+    }
+  ]
+}
