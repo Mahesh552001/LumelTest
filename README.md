@@ -17,6 +17,7 @@ After login, you can get into the **'Cloud Scale'** service. Inside that you can
    ![image](https://github.com/Mahesh552001/LumelTest/assets/68393025/2b88311d-25ae-4ad1-afd5-e5636e175a88)
 
 2. EndPoints:
+   
     **Load** -  https://lumelappsail-30011105496.development.catalystappsail.eu/load?fileId=1755000000020378 (If you need to load a different CSV file, first upload it in the filestore and modify the ID here in the URL)
    
    ![image](https://github.com/Mahesh552001/LumelTest/assets/68393025/02923623-5e01-4a49-a9f6-5cb76cb3537e)
@@ -24,5 +25,11 @@ After login, you can get into the **'Cloud Scale'** service. Inside that you can
    **Revenue** - https://lumelappsail-30011105496.development.catalystappsail.eu/revenue?from=2023-12-15&to=2023-12-16
 
    ![image](https://github.com/Mahesh552001/LumelTest/assets/68393025/c0845538-f896-4f07-9b06-1431860abc5f)
+
+   **RevenueByProduct** - https://lumelappsail-30011105496.development.catalystappsail.eu/revenueByProduct?from=2023-12-15&to=2023-12-16&product=p123
+
+   **RevenueByCategory** - https://lumelappsail-30011105496.development.catalystappsail.eu/revenueByCategory?from=2023-12-15&to=2023-12-16&category=Shoes
+
+   **RevenueByRegion** - https://lumelappsail-30011105496.development.catalystappsail.eu/revenueByRegion?from=2023-12-15&to=2023-12-16&region=Asia
 
 
