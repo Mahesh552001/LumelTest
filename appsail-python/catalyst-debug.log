@@ -1,0 +1,31 @@
+[debug] [2024-05-21T22:07:42.506Z] : 
+[debug] [2024-05-21T22:07:42.507Z] : ----------------------------------------------------------------------
+[debug] [2024-05-21T22:07:42.508Z] : Command:      /usr/bin/node /usr/bin/catalyst serve
+[debug] [2024-05-21T22:07:42.508Z] : CLI Version:  1.17.2
+[debug] [2024-05-21T22:07:42.510Z] : Platform:     linux
+[debug] [2024-05-21T22:07:42.511Z] : Node Version: v20.5.1
+[debug] [2024-05-21T22:07:42.511Z] : Time:         Tue May 21 2024 17:07:42 GMT-0500 (Central Daylight Time)
+[debug] [2024-05-21T22:07:42.511Z] : ----------------------------------------------------------------------
+[debug] [2024-05-21T22:07:42.511Z] : 
+[debug] [2024-05-21T22:07:43.051Z] : > authorizing via signed-in user option
+[debug] [2024-05-21T22:07:43.051Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-05-21T22:07:43.065Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.eu/baas/v1/project/1755000000017001 
+
+[debug] [2024-05-21T22:07:43.713Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 21 May 2024 22:07:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["df2a6cada2=4c99114ef542a6170885b49261158f9c; Path=/","ZD_CSRF_TOKEN=757915ee-9f3a-4072-86d8-b7c2e446961e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=757915ee-9f3a-4072-86d8-b7c2e446961e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-21T22:07:43.719Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.eu/baas/v1/project/1755000000017001/environment 
+
+[debug] [2024-05-21T22:07:44.018Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 21 May 2024 22:07:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["df2a6cada2=86614176807fbd02fbf45ba0c121c282; Path=/","ZD_CSRF_TOKEN=4fdc23f6-cc04-4c87-96e8-aa97eceb90ff;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4fdc23f6-cc04-4c87-96e8-aa97eceb90ff;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-21T22:07:44.224Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2024-05-21T22:07:44.225Z] : No basic functions to add
+[info] [2024-05-21T22:07:44.227Z] : 
+[info] [2024-05-21T22:07:44.227Z] : Executing AppSail [PRESERVE] [LumelAppSail] script in /home/maheshlinux/Catalyst/Lumel/appsail-python
+[debug] [2024-05-21T22:07:44.227Z] : Executing command > python3 -m pip install -r ./requirements.txt -t ./ --upgrade
+[info] [2024-05-21T22:07:44.228Z] : > python3 -m pip install -r ./requirements.txt -t ./ --upgrade
+[info] [2024-05-21T22:07:48.434Z] : 
+[info] [2024-05-21T22:07:48.435Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2024-05-21T22:07:48.435Z] : ℹ LumelAppSail: http://localhost:3001
+[info] [2024-05-21T22:07:48.435Z] : 
